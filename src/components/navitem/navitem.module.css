@@ -1,0 +1,11 @@
+@media (max-width: 1099px) {
+    .menu__item {
+        margin: 15px 0;
+    }
+}
+
+@media (min-width: 1100px) {
+    .menu__item {
+        padding: 1rem;
+    }
+}

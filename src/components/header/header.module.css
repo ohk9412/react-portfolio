@@ -1,0 +1,8 @@
+.header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: solid 1px lightgray;
+    box-shadow: 1px 1px 3px 0px rgba(191,191,191,0.53);
+    background-color:ghostwhite;
+    margin-top: 1rem;
+}
