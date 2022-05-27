@@ -6,9 +6,8 @@ const Home = (props) => {
         <div className={styles.home}>
                 <h2 className={styles.title}>
                     <span>ABOUT ME</span>
-                    <span className={styles.after} />
                 </h2>
-            <div className={styles.introduce}>
+            <div>
                 <img className={styles.img} src='/3.jpg'/>
                 <h4 className={styles.abmetitle}>EDUCATUON/EXPERIENCE</h4>
                 <div className={styles.abmelist}>

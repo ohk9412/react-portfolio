@@ -4,9 +4,9 @@ import './app.css';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import Home from './components/home/home';
-import Navbar from './components/navbar/navbar';
-import Python from './components/python/python';
-import Reacts from './components/react/react';
+import PythonProject from './components/pythonProject/pythonProject';
+import ReactProject from './components/reactProject/reactProject';
+
 
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
       <Header/>
         <Routes>
           <Route path="/" axact element={<Home />} />
-          <Route path="/python" axact element={<Python />} />
-          <Route path="/react" axact element={<Reacts />} />
+          <Route path="/python" axact element={<PythonProject />} />
+          <Route path="/react" axact element={<ReactProject />} />
        </Routes>
       <Footer />
     </div>

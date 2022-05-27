@@ -18,23 +18,16 @@
     padding-left: 1rem;
     font-family:Roboto Condensed;
     bottom: 0;
+    display: flex;
 }
 
-.after {
-    width: 55%;
-    min-width: 30%;
-    position:absolute;
-    top:13rem;
+.title::after{
+    margin-top: 1rem;
+    width: 80%;
     margin-left: 1rem;
-    /* padding-right: 55rem; */
-    content: '';
-    height: 2px;
+    content:"";
     background-color: #a69eb0;
-}
-
-.introduce {
-    /* display: flex; */
-    
+    height: 2px;
 }
 
 .img {
@@ -45,7 +38,6 @@
 }
 
 .abmetitle {
-    /* padding-left: 1rem; */
     font-family:Roboto Condensed;
     bottom: 0;
 }
