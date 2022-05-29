@@ -31,7 +31,7 @@ const ReactProject = (props) => {
             </div>
         </div>
         <div className={styles.reactform}>
-        <h2 className={styles.title2}>
+            <h2 className={styles.title2}>
                 <span>Habit Tracker</span>
             </h2>
             <div className={styles.introduce}>
@@ -41,13 +41,58 @@ const ReactProject = (props) => {
                 " 리액트를 학습하며 제작한 클론코딩 "
                 </h4>
                 <p className={styles.contents}>
-                이름 그대로 내가 지키고 싶은 행동들을 체크하며 습관화 시키기 위한 웹.<br />
+                내가 지키고 싶은 행동들을 체크하며 습관화 시키기 위한 웹.<br />
                 원하는 내용을 적어 추가할 수 있으며 버튼을 이용해 횟수를 늘리거나 줄일 수 있습니다.
                 <br />
                 </p>
                 <button
                 className={styles.button}
                 onClick={() => window.open('https://ohk9412.github.io/react_react-basic_habit-tracker/','_blank')}
+                >WEB</button>
+                </div>
+            </div>
+        </div>
+        <div className={styles.reactform}>
+            <h2 className={styles.title}>
+                <span>Youtube</span>
+            </h2>
+            <div className={styles.introduce}>
+                <img className={styles.img} src='/youtube.png'/>
+                <div>
+                <h4>
+                " 리액트를 학습하며 제작한 클론코딩 "
+                </h4>
+                <p className={styles.contents}>
+                유튜브 api를 이용해 유튜브를 간략하게 구현한 웹.<br />
+                기본 화면으로 인기동영상을 가져오고 검색 기능으로 원하는 영상을 찾아 볼 수 있습니다.
+                <br />
+                </p>
+                <button
+                className={styles.button}
+                onClick={() => window.open('https://ohk9412.github.io/react-youTube/','_blank')}
+                >WEB</button>
+                </div>
+            </div>
+        </div>
+        <div className={styles.reactform}>
+            <h2 className={styles.title2}>
+                <span>Youtube</span>
+            </h2>
+            <div className={styles.introduce}>
+                <img className={styles.img} src='/card.png'/>
+                <div>
+                <h4>
+                " 리액트를 학습하며 제작한 클론코딩 "
+                </h4>
+                <p className={styles.contents}>
+                사진을 받아와 원하는 명함을 만들 수 있게 한 웹.<br />
+                파이어베이스를 이용해 로그인 기능과 데이터베이스를 이용했으며
+                클라우디너리의 이미지 업로드 api를 이용해 사진을 업로드 시켰습니다.
+                <br />
+                </p>
+                <button
+                className={styles.button}
+                onClick={() => window.open('https://ohk9412.github.io/card-maker/','_blank')}
                 >WEB</button>
                 </div>
             </div>
