@@ -7,8 +7,8 @@ const Navbar = (props) => {
     const [menuToggle, setMenuToggle] = useState(false);
     const menu = [
         { name: "Home", address: "/" },
-        { name: "python", address: "/python" },
-        { name: "react", address: "/react" },
+        { name: "Python", address: "/python" },
+        { name: "React", address: "/react" },
     ];
     return(
         <nav className={styles.navigation__wrapper}>

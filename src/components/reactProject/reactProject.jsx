@@ -23,10 +23,18 @@ const ReactProject = (props) => {
                 두 번 눌렷을때 붉은 색으로 변하며 해당 번호를 숫자 리스트에서 제거합니다.<br />
                 카카오 api를 이용해 번호를 카카오톡으로 공유할 수 있습니다.
                 </p>
-                <button
-                className={styles.button}
-                onClick={() => window.open('https://ohk9412.github.io/react-lotto/','_blank')}
-                >WEB</button>
+                <div className={styles.buttons}>
+                    <button
+                    className={styles.button}
+                    onClick={() => window.open('https://github.com/ohk9412/react-lotto','_blank')}
+                    >github
+                    </button>
+                    <button
+                    className={styles.button}
+                    onClick={() => window.open('https://ohk9412.github.io/react-lotto/','_blank')}
+                    >WEB
+                    </button>
+                </div>
                 </div>
             </div>
         </div>
@@ -45,10 +53,17 @@ const ReactProject = (props) => {
                 원하는 내용을 적어 추가할 수 있으며 버튼을 이용해 횟수를 늘리거나 줄일 수 있습니다.
                 <br />
                 </p>
+                <div className={styles.buttons}>
+                <button
+                    className={styles.button}
+                    onClick={() => window.open('https://github.com/ohk9412/react_react-basic_habit-tracker','_blank')}
+                    >github
+                    </button>
                 <button
                 className={styles.button}
                 onClick={() => window.open('https://ohk9412.github.io/react_react-basic_habit-tracker/','_blank')}
                 >WEB</button>
+                </div>
                 </div>
             </div>
         </div>
@@ -67,16 +82,23 @@ const ReactProject = (props) => {
                 기본 화면으로 인기동영상을 가져오고 검색 기능으로 원하는 영상을 찾아 볼 수 있습니다.
                 <br />
                 </p>
+                <div className={styles.buttons}>
+                <button
+                    className={styles.button}
+                    onClick={() => window.open('https://github.com/ohk9412/react-youTube','_blank')}
+                    >github
+                    </button>
                 <button
                 className={styles.button}
                 onClick={() => window.open('https://ohk9412.github.io/react-youTube/','_blank')}
                 >WEB</button>
                 </div>
+                </div>
             </div>
         </div>
         <div className={styles.reactform}>
             <h2 className={styles.title2}>
-                <span>Youtube</span>
+                <span>Card Maker</span>
             </h2>
             <div className={styles.introduce}>
                 <img className={styles.img} src='/card.png'/>
@@ -90,10 +112,17 @@ const ReactProject = (props) => {
                 클라우디너리의 이미지 업로드 api를 이용해 사진을 업로드 시켰습니다.
                 <br />
                 </p>
+                <div className={styles.buttons}>
+                <button
+                    className={styles.button}
+                    onClick={() => window.open('https://github.com/ohk9412/card-maker','_blank')}
+                    >github
+                    </button>
                 <button
                 className={styles.button}
                 onClick={() => window.open('https://ohk9412.github.io/card-maker/','_blank')}
                 >WEB</button>
+                </div>
                 </div>
             </div>
         </div>
