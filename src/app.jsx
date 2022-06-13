@@ -14,9 +14,9 @@ function App() {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header/>
         <Routes>
-          <Route path={process.env.PUBLIC_URL + "/"} axact element={<Home />} />
-          <Route path={process.env.PUBLIC_URL + "/python"} axact element={<PythonProject />} />
-          <Route path={process.env.PUBLIC_URL + "/react"} axact element={<ReactProject />} />
+          <Route path={"/"} axact element={<Home />} />
+          <Route path={"/python"} axact element={<PythonProject />} />
+          <Route path={"/react"} axact element={<ReactProject />} />
        </Routes>
       <Footer />
       </BrowserRouter>
