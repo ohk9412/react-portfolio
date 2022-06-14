@@ -12,7 +12,7 @@ const ReactProject = (props) => {
                 <span>로또번호추출기</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/lotto.png'}/>
+                <img className={styles.img} src={process.env.PUBLIC_URL + '/lotto.png'} alt='lotto'/>
                 <div>
                 <h4>
                 " 리액트를 이용해 간단하게 만든 로또 번호 추출 웹 "
@@ -43,7 +43,7 @@ const ReactProject = (props) => {
                 <span>Habit Tracker</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/habit.png'}/>
+                <img className={styles.img} src={process.env.PUBLIC_URL + '/habit.png'} alt='habit'/>
                 <div>
                 <h4>
                 " 리액트를 학습하며 제작한 클론코딩 "
@@ -72,7 +72,7 @@ const ReactProject = (props) => {
                 <span>Youtube</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/youtube.png'}/>
+                <img className={styles.img} src={process.env.PUBLIC_URL + '/youtube.png'} alt='youtube'/>
                 <div>
                 <h4>
                 " 리액트를 학습하며 제작한 클론코딩 "
@@ -101,7 +101,7 @@ const ReactProject = (props) => {
                 <span>Card Maker</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/card.png'}/>
+                <img className={styles.img} src={process.env.PUBLIC_URL + '/card.png'} alt='card'/>
                 <div>
                 <h4>
                 " 리액트를 학습하며 제작한 클론코딩 "

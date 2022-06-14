@@ -9,7 +9,7 @@ const PythonProject = (props) => {
                 <span>NAVER-API</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/naver-api.png'}/>
+                <img className={styles.img} src={process.env.PUBLIC_URL + '/naver-api.png'} alt='naverapi'/>
                 <div>
                 <h4>
                 " Django와 네이버 API를 이용해 만든 월별 상품 수요 분석 웹 "
@@ -36,7 +36,7 @@ const PythonProject = (props) => {
                 <span>Habit Tracker</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/venture.png'}/>
+                <img className={styles.img} src={process.env.PUBLIC_URL + '/venture.png'} alt='venture'/>
                 <div>
                 <h4>
                 " Django와 공공데이터 포털 시스템의 csv파일을 이용한 분석 웹 "
@@ -59,10 +59,10 @@ const PythonProject = (props) => {
         </div>
         <div className={styles.reactform}>
             <h2 className={styles.title}>
-                <span>Youtube</span>
+                <span>Vision Inspection</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/vision.png'}/>
+                <img className={styles.img} src={process.env.PUBLIC_URL + '/vision.png'} alt='vision'/>
                 <div>
                 <h4>
                 " SinGAN과 Resnet을 이용한 비전검사 프로그램 "

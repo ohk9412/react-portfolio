@@ -8,7 +8,14 @@ const Home = (props) => {
                     <span>ABOUT ME</span>
                 </h2>
             <div>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/3.jpg'}/>
+                <div className={styles.abme}>
+                <img 
+                    className={styles.img} 
+                    src={process.env.PUBLIC_URL + '/3.jpg'} 
+                    alt='myphoto'
+                />
+                <p className={styles.name}>프론트엔드를 꿈꾸는 개발자<br /> 오현기</p>
+                </div>
                 <h4 className={styles.abmetitle}>EDUCATUON/EXPERIENCE</h4>
                 <div className={styles.abmelist}>
                 <div>
