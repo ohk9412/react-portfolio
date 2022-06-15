@@ -33,7 +33,7 @@ const PythonProject = (props) => {
         </div>
         <div className={styles.reactform}>
             <h2 className={styles.title2}>
-                <span>Habit Tracker</span>
+                <span>Venture Company</span>
             </h2>
             <div className={styles.introduce}>
                 <img className={styles.img} src={process.env.PUBLIC_URL + '/venture.png'} alt='venture'/>
