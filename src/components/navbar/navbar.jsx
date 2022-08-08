@@ -7,9 +7,9 @@ const Navbar = (props) => {
   // 출저 : https://jeewonscript.tistory.com/6
     const [menuToggle, setMenuToggle] = useState(false);
     const menu = [
-        { name: "Home", address: "/" },
-        { name: "Python", address: "/python" },
-        { name: "React", address: "/react" },
+        { id:1, name: "Home", address: "/" },
+        { id:2, name: "Python", address: "/python" },
+        { id:3, name: "React", address: "/react" },
     ];
     return(
         <nav className={styles.navigation__wrapper}>
@@ -36,6 +36,7 @@ const Navbar = (props) => {
               name={data.name}
               address={data.address}
               offNav={() => setMenuToggle(false)}
+              key={data.id}
             />
           ))}
         </div>
