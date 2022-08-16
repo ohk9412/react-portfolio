@@ -9,9 +9,9 @@ const Home = (props) => {
                 </h2>
             <div>
                 <div className={styles.abme}>
-                <img 
-                    className={styles.img} 
-                    src={process.env.PUBLIC_URL + '/3.jpg'} 
+                <img
+                    className={styles.img}
+                    src={process.env.PUBLIC_URL + '/3.jpg'}
                     alt='myphoto'
                 />
                 <p className={styles.name}>프론트엔드를 꿈꾸는 개발자<br /> 오현기</p>
@@ -52,7 +52,6 @@ const Home = (props) => {
                         <h5>JavaScript</h5>
                         <p>react</p>
                         <p>react-hook</p>
-
                     </div>
                     <div className={styles.content}>
                         <h5>ETC</h5>
@@ -63,7 +62,6 @@ const Home = (props) => {
                     <div></div>
                 </div>
             </div>
-            
         </div>
     )
 };
