@@ -9,7 +9,9 @@ const PythonProject = (props) => {
                 <span>NAVER-API</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/naver-api.png'} alt='naverapi'/>
+                <img className={styles.img} 
+                src={process.env.PUBLIC_URL + '/naver-api.png'}
+                alt='naverapi'/>
                 <div className={styles.contents}>
                 <h4>
                 " Django와 네이버 API를 이용해 만든 월별 상품 수요 분석 웹 "

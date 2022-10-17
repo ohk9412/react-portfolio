@@ -12,7 +12,10 @@ const ReactProject = (props) => {
                 <span>로또번호추출기</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/lotto.png'} alt='lotto'/>
+                <img className={styles.img}
+                src={process.env.PUBLIC_URL + '/lotto.png'} 
+                onClick={() => window.open('https://ohk9412.github.io/react-lotto/','_blank')}
+                alt='lotto'/>
                 <div className={styles.contents}>
                 <h4>
                 " 리액트를 이용해 간단하게 만든 로또 번호 추출 웹 "
@@ -44,7 +47,10 @@ const ReactProject = (props) => {
                 <span>Habit Tracker</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/habit.png'} alt='habit'/>
+                <img className={styles.img} 
+                src={process.env.PUBLIC_URL + '/habit.png'} 
+                onClick={() => window.open('https://ohk9412.github.io/react_react-basic_habit-tracker/','_blank')}
+                alt='habit'/>
                 <div className={styles.contents}>
                 <h4>
                 " 리액트를 학습하며 제작한 클론코딩 "
@@ -73,7 +79,10 @@ const ReactProject = (props) => {
                 <span>Youtube</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/youtube.png'} alt='youtube'/>
+                <img className={styles.img} 
+                src={process.env.PUBLIC_URL + '/youtube.png'} 
+                onClick={() => window.open('https://ohk9412.github.io/react-youTube/','_blank')}
+                alt='youtube'/>
                 <div className={styles.contents}>
                 <h4>
                 " 리액트를 학습하며 제작한 클론코딩 "
@@ -102,7 +111,10 @@ const ReactProject = (props) => {
                 <span>Card Maker</span>
             </h2>
             <div className={styles.introduce}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/card.png'} alt='card'/>
+                <img className={styles.img} 
+                src={process.env.PUBLIC_URL + '/card.png'} 
+                onClick={() => window.open('https://ohk9412.github.io/card-maker/','_blank')}
+                alt='card'/>
                 <div className={styles.contents}>
                 <h4>
                 " 리액트를 학습하며 제작한 클론코딩 "
